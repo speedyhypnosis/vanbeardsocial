@@ -1026,19 +1026,19 @@
           <form class="contact-form" action="https://formspree.io/f/xjgqkgzw" method="POST">
             <div class="form-group">
               <label>Your Name</label>
-              <input type="text" placeholder="First and last name" required>
+              <input type="text" name="name" placeholder="First and last name" required>
             </div>
             <div class="form-group">
               <label>Email Address</label>
-              <input type="email" placeholder="you@yourbusiness.com" required>
+              <input type="email" name="email" placeholder="you@yourbusiness.com" required>
             </div>
             <div class="form-group">
               <label>Business Type</label>
-              <input type="text" placeholder="e.g. Funeral home, church, restaurant">
+              <input type="text" name="business_type" placeholder="e.g. Funeral home, church, restaurant">
             </div>
             <div class="form-group">
               <label>Package Interested In</label>
-              <select>
+              <select name="package">
                 <option value="">Select a package</option>
                 <option>Basic — $75 per article</option>
                 <option>Standard — $125 per article</option>
@@ -1048,7 +1048,7 @@
             </div>
             <div class="form-group">
               <label>Tell Me About Your Topic</label>
-              <textarea placeholder="What would you like the article to cover? Who is your target audience?"></textarea>
+              <textarea name="message" placeholder="What would you like the article to cover? Who is your target audience?"></textarea>
             </div>
             <button type="submit" class="form-submit">Send My Request →</button>
           </form>
